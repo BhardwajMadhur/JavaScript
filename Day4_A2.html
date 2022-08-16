@@ -8,12 +8,18 @@
 </head>
 <body>
     <script>
-        function Names(name) 
-        {
-            return name;   
-        }
-        var names=["Madhur","Nitisha","Avneet","Deepesh","Lalit"];
-        console.log(Names(names));
+        function getNames() {
+  
+  let firstName = 'Nitisha',
+      lastName = 'Choudhary';
+
+  
+  return {
+    'firstName': firstName,
+    'lastName': lastName
+  };
+}
+console.log(getNames());
     </script>
 </body>
 </html>
