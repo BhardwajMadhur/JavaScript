@@ -1,0 +1,116 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 100vh;
+  overflow: hidden;
+  background-image: url("bg3.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: inherit;
+}
+
+h1 {
+  font-family: 'Courier New', Courier, monospace;
+  text-align: center;
+  font-size: 82px;
+  font-weight: bolder;
+  color: rgba(58, 204, 119, 0.815);
+  margin-top: 0%;
+}
+
+#mole {
+  position: absolute;
+  left: 39%;
+  top: 24%;
+}
+#mud {
+  position: fixed;
+  left: 30%;
+  width: 500px;
+  top: 44%;
+}
+#start {
+  height: 70px;
+  width: 180px;
+  background-color: rgb(55, 194, 129);
+  color: floralwhite;
+  font-size: x-large;
+  font-weight: bold;
+  border: floralwhite solid 4px;
+  border-radius: 32px;
+  position: absolute;
+  top: 85%;
+  left: 43%;
+  cursor: pointer;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.dirt {
+  width: 270px;
+  position: absolute;
+  
+}
+#dirt1 {
+  top: 52%;
+  left: 20%;
+}
+#dirt2 {
+  top: 70%;
+  left: 20%;
+}
+#dirt3 {
+  top: 52%;
+  left: 45%;
+}
+#dirt4 {
+  top: 70%;
+  left: 45%;
+}
+#dirt5 {
+  top: 52%;
+  left: 65%;
+}
+#dirt6 {
+  top: 70%;
+  left: 65%;
+}
+.points {
+  font-size: x-large;
+  font-weight: bolder;
+  font-family:'Courier New', Courier, monospace;
+  padding-left: 20px;
+}
+.mole {
+  position: absolute;
+  height: 100px;
+  width: 90px;
+  z-index: 1;
+}
+#mole1 {
+  top:59%;
+  left: 27%;
+}
+#mole3 {
+  top:59%;
+  left: 52%;
+}
+#mole5 {
+  top:59%;
+  left: 72%;
+}
+#mole2 {
+  top: 78%;
+  left: 27%;
+}
+#mole4 {
+  top: 78%;
+  left: 52%;
+}
+
+#mole6 {
+  top: 78%;
+  left: 72%;
+}
